@@ -1,4 +1,4 @@
-layout: sidebar
+layout: stacked
 style: light
 
 plugins:
@@ -18,41 +18,117 @@ defaults:
 
 projects:
   sort_by: pushed
-  # sort_by options:
-  #   - pushed
-  #   - stars
   limit: 9
   exclude:
     archived: false
     forks: true
-    projects:
-    # - repo-name
 
-# social_media:
-  # behance: your_username
-  # dribbble: your_username
-  # facebook: your_username
-  # hackerrank: your_username
-  # instagram: your_username
-  # keybase: your_username
-  # linkedin: your_username
-  # mastodon: your_username
-  # medium: your_username
-  # stackoverflow: your_user_id
-  # telegram: your_username
-  # twitter: your_username
-  # unsplash: your_username
-  # vk: your_username
-  # website: http://your_website_url
-  # youtube: your_username
+social_media:
+  linkedin: jose-antonio-cabaneros
+  medium: joseacabaneros
+  twitter: joseroscachapa
+  youtube: channel/UCGplyn70PeGM0rV1rRzz7mg
 
 topics:
+  - name: Vue.js
+    web_url: https://github.com/topics/vue
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png
+
+  - name: JavaScript
+    web_url: https://github.com/topics/javascript
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png
+
+  - name: TypeScript
+    web_url: https://github.com/topics/typescript
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png
+
+  - name: D3.js
+    web_url: https://github.com/topics/d3js
+    image_url: https://www.melvintjonakon.com/wp-content/uploads/2018/01/1562726.png
+
+  - name: ES6
+    web_url: https://github.com/topics/es6
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/es6/es6.png
+
+  - name: Web Components
+    web_url: https://github.com/topics/web-components
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/web-components/web-components.png
+
+  - name: HTML
+    web_url: https://github.com/topics/html
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png
+
   - name: CSS
     web_url: https://github.com/topics/css
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
 
-  - name: Web design
-
   - name: Sass
     web_url: https://github.com/topics/sass
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+
+  - name: ESLint
+    web_url: https://github.com/topics/eslint
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/eslint/eslint.png
+
+  - name: Node.js
+    web_url: https://github.com/topics/nodejs
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png
+
+  - name: React
+    web_url: https://github.com/topics/react
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png
+
+  - name: GraphQL
+    web_url: https://github.com/topics/graphql
+    image_url: https://raw.githubusercontent.com/github/explore/5c058a388828bb5fde0bcafd4bc867b5bb3f26f3/topics/graphql/graphql.png
+
+  - name: Jest
+    web_url: https://github.com/topics/jest
+    image_url: https://miro.medium.com/max/1200/1*i37IyHf6vnhqWIA9osxU3w.png
+
+  - name: Cypress
+    web_url: https://github.com/topics/cypress
+    image_url: https://xebialabs.com/wp-content/uploads/2018/10/cypress-logo-1.jpg
+
+  - name: Arduino
+    web_url: https://github.com/topics/arduino
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/arduino/arduino.png
+
+  - name: Android
+    web_url: https://github.com/topics/android
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/android/android.png
+
+  - name: Firebase
+    web_url: https://github.com/topics/firebase
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png
+
+  - name: Kotlin
+    web_url: https://github.com/topics/kotlin
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/kotlin/kotlin.png
+
+  - name: MongoDB
+    web_url: https://github.com/topics/mongodb
+    image_url: https://lh3.googleusercontent.com/proxy/PvWJPRPSNbsvmPxnUC5a1RRNSz4v8P9MShEVq4-r4hnIcIcAjAOn7r6f6g5i4v7wxUABGmYFTm2yREDmS_OGFSAlx-PgPhkAnI8JvkAQrkUD6_K6eZc
+
+  - name: Hadoop
+    web_url: https://github.com/topics/hadoop
+    image_url: https://www.topfreebooks.org/wp-content/uploads/2018/11/kisspng-apache-hadoop-logo-big-data-data-analysis-hadoop-d-services-monitored-signalfx-5b62f0523cf851.4266811115332107062497.jpg
+
+  - name: Spark
+    web_url: https://github.com/topics/spark
+    image_url: https://upload.wikimedia.org/wikipedia/commons/f/f3/Apache_Spark_logo.svg
+
+  - name: WCAG
+    web_url: https://github.com/topics/wcag
+
+  - name: Front End
+    web_url: https://github.com/topics/frontend
+
+  - name: Data Visualisation
+    web_url: https://github.com/topics/data-visualization
+
+  - name: IoT
+    web_url: https://github.com/topics/iot
+
+  - name: Big Data
+    web_url: https://github.com/topics/big-data
